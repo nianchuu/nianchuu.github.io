@@ -1,0 +1,91 @@
+/* 共通設定 */
+body {
+  font-family: 'Noto Serif JP', serif;
+  margin: 0;
+  color: #333;
+  background-color: #fdf9f5;
+  line-height: 1.8;
+}
+
+header {
+  background-color: #b7984f;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #b7984f;
+  padding-bottom: 10px;
+}
+
+.work-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.work-item img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.work-item div {
+  flex: 1;
+}
+
+.work-item a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #b7984f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.work-item a:hover {
+  text-decoration: underline;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background-color: #faefcf;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #b7984f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8em;
+}
+
+/* レスポンシブ */
+@media screen and (max-width: 768px) {
+  .work-item {
+    flex-direction: column;
+  }
+}
